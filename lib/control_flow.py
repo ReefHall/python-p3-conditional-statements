@@ -21,11 +21,11 @@ def hows_the_weather(temperature):
     
 
 def fizzbuzz(num):
-    if(num / 3 == int and num / 5 == int):
+    if(num % 3 == 0 and num % 5 == 0):
         return "FizzBuzz"
-    elif(num / 3 == int):
+    elif(num % 3 == 0):
         return "Fizz"
-    elif(num / 5 == int):
+    elif(num % 5 == 0):
         return "Buzz"
     else:
         return num
